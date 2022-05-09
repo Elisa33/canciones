@@ -20,9 +20,10 @@ h2 {
 }
 
 .contenido {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.729);
     max-width: 1100px;
-    margin:  0 auto;
+    margin:  1rem;
+    border-radius: 20px;
     height: 100%;
     padding: 20px;
 }
@@ -30,7 +31,7 @@ h2 {
 
 @media (min-width:768px) {
     .contenedor {
-        display: flex;
+        //display: flex;
         flex-wrap: wrap;
     }
     .contenedor > div {
@@ -50,7 +51,7 @@ h2 {
     align-items: center;
 }
 .input label {
-    flex: 0 0 120px;
+    flex: 0 0 100px;
     text-align: right;
     margin-right: 1rem;
     font-weight: 700;
